@@ -18,6 +18,8 @@ try {
 	Zend_Db_Table::setDefaultAdapter ( $dbAdapter );
 	Zend_Registry::set ( "db", $dbAdapter );
 	
+	//修改下玩玩，哈哈哈哈哈哈哈~~~~
+	
 	//加载工程配置信息
 	$appconfig = new Zend_Config_Ini ( './application/configs/application.ini', 'general' );
 	$registry = Zend_Registry::getInstance ();
@@ -47,7 +49,7 @@ try {
 	$directory = './application/controllers';
 	$front = Zend_Controller_Front::getInstance ();
 	$front->setParam ( 'useDefaultControllerAlways', false );
-	$front->setDefaultControllerName ( 'Interface' );
+	$front->setDefaultControllerName ( 'Movie' );
 	$front->setControllerDirectory ( $directory );
 	$front->setParam ( 'noViewRenderer', true ); //禁用试图渲染功能
 	$front->dispatch ();
