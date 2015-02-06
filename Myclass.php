@@ -11,7 +11,7 @@ class Myclass { //创建一个自定义类
 		return $array;
 	} 
 h
-
+aaaaaa
 //add testaaaaa
 
 }
