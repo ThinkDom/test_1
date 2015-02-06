@@ -6,7 +6,7 @@ try {
     error_reporting(E_ALL & ~(E_STRICT | E_NOTICE));
 	require_once 'configs/config.php';
 	require_once 'Zend/Config/Ini.php';
-	require_once 'Zend/Loader/Autoloader.php';
+	require_once 'Zend/Loader/Autoloader.php'; 
 	require_once 'Zend/Cache.php';
 	require_once 'Zend/Session/Namespace.php';
 	require_once 'Zend/Config/Xml.php';

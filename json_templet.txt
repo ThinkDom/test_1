@@ -1,0 +1,68 @@
+短语列表json
+{
+	"list_phrase": [
+	{
+	  "id":"",
+	  "value":""
+	},
+	{
+	  "id":"",
+	  "value":""
+	},  
+}
+短语信息json
+{
+	"phrase_info": {
+	  "word":"value",
+	  "word_id":"value",
+	  "js_id":"value",
+	  "jx_id":"value",
+	  "gz_id":"value",
+	  "dp_id":"value",
+	  "cx_id":"value",
+	  "phrase":"value"
+	}
+}
+短语信息列表json
+{
+  "list_phrase_info": {
+	"phrase_info": {
+	  "word":"value",
+	  "word_id":"value",
+	  "js_id":"value",
+	  "jx_id":"value",
+	  "gz_id":"value",
+	  "dp_id":"value",
+	  "cx_id":"value",
+	  "phrase":"value"
+	},
+	"phrase_info": {
+	  "word":"value",
+	  "word_id":"value",
+	  "js_id":"value",
+	  "jx_id":"value",
+	  "gz_id":"value",
+	  "dp_id":"value",
+	  "cx_id":"value",
+	  "phrase":"value"
+	}
+  }
+}
+短语解释例句块json
+{
+	"list_phrase_chunk":{
+		"phrase_chunk":{
+		  "explain_id":"",
+		  "enexplain":"",
+		  "cnexplain":"",
+		  "lj":{
+		    "enLJ1":"cnLJ1",
+			"enLJ2":"cnLJ2",
+			"enLJ3":"cnLJ3"
+		  }
+		}
+	}
+}
+
+有效字典（返回列表以：隔开）
+字典名1:字典名2:字典名3
