@@ -9,7 +9,7 @@ class Myclass { //创建一个自定义类
 			$array [] = array ('desc' => $value['dict_desc'], 'code' => $value['dict_code'] );
 		}
 		return $array;
-	} 
+	} dfg
 h
 aaaaaa
 //add testaaaaa
